@@ -1,0 +1,32 @@
+.air-q-title {
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.air-q-map {
+    height: 560px;
+    margin: 42px 0;
+}
+.air-q-text {
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.air-q {
+    padding: 50px 0;
+}
+@media only screen and (max-width: 768px) {
+    .air-q-title {
+        font-size: 27px;
+        line-height: 32px;
+        margin: 0 20px 22px 20px;
+    } 
+    .air-q-text {
+        font-size: 17px;
+        line-height: 20px;
+        margin: 0 20px;
+    }
+}

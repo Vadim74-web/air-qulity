@@ -1,0 +1,100 @@
+.hero{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../assets/Hero-BG.jpg");
+    background-size: cover;
+    padding: 80px 0 178px;
+}
+.hero-partners {
+        display: flex;
+        align-items: center;
+}
+.hero-partners-item {
+            margin-left: 60px;
+}
+.hero-partners-item:first-child {
+                margin-left: 0;
+}       
+.hero-burger, .hero-burger-show {
+    display: none;
+}
+.hero-navigation {
+        margin-top: 45px;
+}
+.hero-navigation-item {
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 19px;
+            line-height: 22px;
+            color: #ffffff;
+            margin-left: 75px;
+}
+.hero-navigation-item:first-child {
+                margin-left: 0;
+}
+
+ 
+
+.hero-title {
+        width: 665px;
+        height: 130px;
+        font-weight: normal;
+        font-size: 57px;
+        line-height: 67px;
+        color: #ffffff;
+        margin: 108px 0 132px;
+}
+
+.hero-link {
+        display: inline-block;
+        text-decoration: none;
+        padding: 35px 151px;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+        color: #ffffff;
+        background: #B78A3F;
+        
+}
+.hero-vector {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-title {
+        width: 100%;
+        padding: 0 20px;
+        font-size: 32px;
+        line-height: 37px;
+    }
+    .hero-navigation {
+        display: none;
+    }
+    .hero-link {
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        line-height: 33px;
+        margin: 267px 0 75px;
+    }
+    .hero-vector {
+        display: inline-block;
+        margin: 28px 47% 0;
+    }
+    .hero-partners-item{
+        width: 20%;
+        margin: 0 22px 232px 0;
+    }
+    .hero-burger {
+        display: inline-block;
+        width: 5%;
+        margin: 0 22px 232px 20%;
+    }
+    .hero-burger-show {
+        display: inline-block;
+        width: 5%;
+        margin: 0 22px 232px 20%;
+    }
+
+}
+
+
+
